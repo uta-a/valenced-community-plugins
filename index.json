@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "name": "uta-a's Plugins",
+  "description": "Valenced plugins by uta-a.",
+  "plugins": {
+    "uta-a.platform-indicators": {
+      "name": "Platform Indicators",
+      "description": "Shows which devices users are online on, colored by their status on each.",
+      "author": "uta_a <530557242752237570> (https://github.com/uta-a \"GitHub\")",
+      "icon": "LaptopPhoneIcon",
+      "channels": {
+        "latest": "1.0.0"
+      },
+      "versions": {
+        "1.0.0": {
+          "url": "https://raw.githubusercontent.com/uta-a/valenced-community-plugins/repo/uta-a.platform-indicators@1.0.0.zip",
+          "sha256": "ca966794240a6ba5a473ee75102adaa6b54c2106e09a778c8b4e29ef136b6d24",
+          "size": 22074,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {
+              "version": ">=352.2"
+            }
+          }
+        }
+      }
+    }
+  }
+}
