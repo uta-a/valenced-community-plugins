@@ -1,0 +1,24 @@
+{
+	"format": 1,
+	"id": "uta-a.platform-indicators",
+	"name": "Platform Indicators",
+	"description": "Shows which devices users are online on, colored by their status on each.",
+	"author": "uta_a <530557242752237570> (https://github.com/uta-a \"GitHub\")",
+	"icon": "LaptopPhoneIcon",
+	"version": "1.0.0",
+	"dependencies": {
+		"valenced.api": {
+			"version": ">=1 <2"
+		},
+		"discord": {
+			"version": ">=352.2"
+		}
+	},
+	"dist": {
+		"script": "index.js",
+		"android": {
+			"path": "plugin.jar",
+			"class": "dev.uta.valenced.platformindicators.PlatformIndicators"
+		}
+	}
+}
